@@ -29,7 +29,7 @@ function updateCounter() {
 
 // Add event listeners
 
-newAdvice.addEventListener('click', () => {
+newAdvice.addEventListener("click", () => {
   getAdvice();
   updateCounter();
 });
