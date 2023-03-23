@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Advice generator app</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <main>
+      <article>
+        <h1 class="sr-only">Advice generator with Advice Slip API</h1>
+        <p class="advice-counter">Advice &#35;<span id="advice-counter"></span></p>
+        <q class="advice-txt" id="advice"></q>
+        <img class="hzdiv"
+          srcset="./pattern-divider-desktop.svg 444w, ./pattern-divider-mobile.svg 295w"
+          sizes="(max-width: 600px) 295px, 444px"
+          src="./pattern-divider-desktop.svg"
+          alt=""/>
+        <button type="button" id="generate-btn"><img src="./icon-dice.svg"/></button>
+      </article>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

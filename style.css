@@ -1,0 +1,98 @@
+/*Import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+/*Set global variables*/
+:root {
+  --primary-bg:#202733;
+  --card-bg: #313A48;
+  --accent-green: #53FFAA;
+  --body-txt: #CEE3E9;
+  --font-wt-xtrabold: 800;
+  --font-sz-step0: 11px;
+  --font-sz-step1: 13px;
+  --font-sz-step2: 24px;
+  --font-sz-step3: 28px;
+}
+
+/*Zero out defaults*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--primary-bg);
+  font-family: Manrop, sans-serif;
+  font-weight: var(--font-wt-xtrabold);
+  color: var(--body-txt);
+  font-size: clamp(var(--font-sz-step2),22.6px + 0.375vw, var(--font-sz-step3));
+  line-height: 1.4em;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  max-width: 33.75rem;
+  min-height: 19.7rem;
+  margin: 0 1rem;
+  background-color: var(--card-bg);
+  border-radius: clamp(10px, 8.3px + 0.47vw, 15px);
+  padding: clamp(40px, 37.2px + 0.75vw, 48px) clamp(24px, 15.6px + 2.25vw, 48px) 0 clamp(24px, 15.6px + 2.25vw, 48px);
+  text-align: center;
+  position: relative;
+}
+
+.sr-only {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+.advice-counter {
+  color: var(--accent-green);
+  font-size: clamp(var(--font-sz-step0), 10.3px + 0.19vw, var(--font-sz-step1));
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 1.5rem;
+}
+
+.advice-txt {
+  display: block;
+}
+
+.hzdiv {
+  display: block;
+  margin: clamp(24px, 18.5px + 1.5vw, 40px) auto clamp(64px, 61.2px + 0.75vw,72px) auto;
+}
+
+button {
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--accent-green);
+  border-radius: 50%;
+  margin: 0 auto;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: calc(100% - 2rem);
+  left: calc(50% - 2rem);
+  cursor: pointer;
+  transition: box-shadow 200ms ease;
+
+}
+
+button:hover, button:focus {
+  box-shadow: 0px 0px 40px var(--accent-green);
+}
