@@ -1,4 +1,3 @@
-
 // Get advice from Advice Slip API
 
 const urlSource = "https://api.adviceslip.com/advice"; 
