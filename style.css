@@ -93,6 +93,6 @@ button {
 
 }
 
-button:hover, button:focus {
+button:hover, button:focus-visible {
   box-shadow: 0px 0px 40px var(--accent-green);
 }

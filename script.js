@@ -16,13 +16,19 @@ function getAdvice() {
 };
 
 
-// Set and update quote counter
+// Set and update quote counter using random number generator
 
 let counterDisplay = document.querySelector('#advice-counter');
-let adviceCount = 0;
+let minCount = 1;
+let maxCount = 2000;
+
+function genRandomCount() {
+  let randomCount = Math.floor(Math.random() * (maxCount - minCount + 1)) + minCount;
+  return randomCount;
+}
 
 function updateCounter() {
-  adviceCount++;
+  let adviceCount = genRandomCount();
   counterDisplay.innerHTML = `${adviceCount}`;
 }
 
