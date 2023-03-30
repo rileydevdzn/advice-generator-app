@@ -6,7 +6,7 @@ const newAdvice = document.querySelector('#generate-btn');
 
 
 function getAdvice() {
-  fetch(urlSource).then(response => {
+  fetch(urlSource, { cache: "no-store" }).then(response => {
     return response.json();
   }).then(adviceData => {
     const Adviceobj = adviceData.slip;
