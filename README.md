@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Advice generator app](https://rileydevdzn.github.io/advice-generator-API/)
+- Solution URL: [Advice generator app](https://rileydevdzn.github.io/advice-generator-app/)
 
 ## My process
 
