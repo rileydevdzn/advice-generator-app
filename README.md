@@ -8,8 +8,8 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Links](#links)
+  - [The challenge](#the-challenge)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -19,7 +19,9 @@
 
 ## Overview
 
-This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
+### Links
+
+- View live page: [Advice generator app](https://rileydevdzn.github.io/advice-generator-app/)
 
 ### The challenge
 
@@ -37,9 +39,7 @@ Users should be able to:
   <p><em>Hover state design</em></p>
 </div>
 
-### Links
-
-- Solution URL: [Advice generator app](https://rileydevdzn.github.io/advice-generator-app/)
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
 
 ## My process
 
@@ -80,4 +80,5 @@ This was my first time using a 3rd party API with JavaScript and I found the pro
 
 ## Author
 
+- Website - [Riley Portfolio](https://rileydevdzn.webflow.io)
 - Frontend Mentor - [@rileydevdzn](https://www.frontendmentor.io/profile/rileydevdzn)
