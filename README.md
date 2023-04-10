@@ -1,3 +1,5 @@
+# Advice Generator App
+
 <div align="center">
   <img 
     src="./advice-gen-api.png"
